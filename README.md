@@ -112,3 +112,8 @@ GROUP BY q.NUM_PROD, q.ANNEE;
 Avant d'analyser des chiffres, il faut s'assurer qu'ils sont justes : ici, les pertes les plus spectaculaires venaient de l'enregistrement des données, et non de la production.
 
 Pistes d'amélioration : rattacher les lots à l'année de leur semaine de production, écarter automatiquement les lots d'un autre format, permettre l'exclusion au niveau du lot, construire un tableau de bord de suivi par ligne et par période.
+
+## Livrables
+[Questions_business](Questions_business_MiamBar.sql)
+[Script_requêtes](Script_requêtes_BDD_MiamBar.sql)
+
