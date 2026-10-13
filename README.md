@@ -24,12 +24,12 @@ Préparer les données d'un futur tableau de bord.
 ## Jeu de données
 Quatre extractions CSV du système de production, une table de planification et une table de production par ligne.
 
-| Table | Rôle | Période | Enregistrements |
-|---|---|---|--:|
-| L1_Planif | Lots planifiés de la ligne 1 et leur numéro de production | avr. 2021 – mai 2022 | 663 |
-| L1_Production | Batchs produits sur la ligne 1 (saveur, quantité, début, fin) | avr. 2021 – mai 2022 | 5 510 |
-| L2_Planif | Lots planifiés de la ligne 2 | janv. 2020 – mai 2022 | 541 |
-| L2_Production | Batchs produits sur la ligne 2 | janv. 2020 – mai 2022 | 12 631 |
+| Table | Rôle | Enregistrements |
+|---|---|--:|
+| L1_Planif | Lots planifiés de la ligne 1 et leur numéro de production | 663 |
+| L1_Production | Batchs produits sur la ligne 1 (saveur, quantité, début, fin) | 5 510 |
+| L2_Planif | Lots planifiés de la ligne 2 | 541 |
+| L2_Production | Batchs produits sur la ligne 2 | 12 631 |
 
 Chaque batch est rattaché à un lot, lui-même rattaché à un numéro de production : batch → lot (LOT_PLANIF) → production (NUM_PROD)
 
